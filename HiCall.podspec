@@ -24,8 +24,7 @@ Pod::Spec.new do |spec|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = <<-DESC
-                   DESC
+  spec.description  = "HiCall Core"
 
   spec.homepage     = "https://github.com/hiappgus/HiCall.git"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -54,8 +53,8 @@ Pod::Spec.new do |spec|
 
   spec.author             = { "Agus Cahyono" => "agus.cahyono@hiapp.id" }
   # Or just: spec.author    = "Agus Cahyono"
-  # spec.authors            = { "Agus Cahyono" => "agus.cahyono@hiapp.id" }
-  # spec.social_media_url   = "https://twitter.com/gauscahyono"
+  spec.authors            = { "Agus Cahyono" => "agus.cahyono@hiapp.id" }
+  spec.social_media_url   = "https://twitter.com/gauscahyono"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
